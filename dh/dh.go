@@ -10,7 +10,7 @@ import (
 	cryptorand "crypto/rand"
 	"errors"
 	"io"
-	"math/big"
+	big "github.com/ncw/gmp"
 )
 
 var zero *big.Int = big.NewInt(0)

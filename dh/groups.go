@@ -4,7 +4,7 @@
 package dh
 
 import (
-	"math/big"
+	big "github.com/ncw/gmp"
 	"sync"
 )
 

@@ -8,7 +8,7 @@ import (
 	cryptorand "crypto/rand"
 	"errors"
 	"io"
-	"math/big"
+	big "github.com/ncw/gmp"
 )
 
 // The same unmarshal as elliptic.Unmarshal but without
